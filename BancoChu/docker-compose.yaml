@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bancochu
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  redis:
+    image: redis:alpine
+    container_name: redis-cache
+    ports:
+      - "6379:6379"
+
+  app:
+    build:
+      context: ../
+      dockerfile: ./BancoChu/Dockerfile
+    restart: always
+    environment:
+      # Use the 'db' service name as the server address
+      CONNECTION_STRING: "Server=db;Port=3306;User ID=root;Password=root;Database=bancochu"
+      CONNECTION_REDIS: "Redis:6379"
+      
+    ports:
+      - "8080:80"
+    depends_on:
+        db:
+          condition: service_healthy    

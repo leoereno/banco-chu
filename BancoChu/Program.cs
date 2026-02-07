@@ -1,0 +1,53 @@
+using BancoChu.Data;
+using BancoChu.Services;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+//Adicionando documentação com swagger
+builder.Services.AddSwaggerGen();
+
+//Injeção de dependência (IoC)
+builder.Services.AddScoped<ITransferenciaService, TransferenciaService>();
+builder.Services.AddSingleton<IUserService, UserService>();
+
+var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+var redisConnectionString = Environment.GetEnvironmentVariable("CONNECTION_REDIS");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString(redisConnectionString);
+    options.InstanceName = "BancoChu_";
+});
+
+var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    // This applies migrations and creates the DB if it doesn't exist
+    db.Database.EnsureCreated();
+    db.Database.Migrate();
+}
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

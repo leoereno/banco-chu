@@ -1,0 +1,68 @@
+﻿using BancoChu.Models;
+using BancoChu.Models.DTO;
+using BancoChu.Services;
+using Microsoft.AspNetCore.Mvc;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace BancoChu.Controllers
+{
+    [Route("api/conta")]
+    [ApiController]
+    public class ContaController : ControllerBase
+    {
+        private readonly ITransferenciaService _transferenciaService;
+        private readonly IUserService _userService;
+
+        public ContaController(ITransferenciaService transferenciaService, IUserService userService)
+        {
+            this._transferenciaService = transferenciaService;
+            this._userService = userService;
+        }
+
+
+
+        // GET: api/<ContaController>
+        [HttpGet]
+        public async Task<List<Conta>> Get()
+        {
+            return await this._userService.GetUsers();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Conta>> GetConta(Guid id)
+        {
+            var conta = await _userService.GetContaById(id);
+            if(conta == null)
+            {
+                return NotFound(new { message = "Conta não encontrada." });
+            }
+
+            return Ok(conta);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CadastrarConta([FromBody] CreateAccountDto createAccountDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            try
+            {
+                var createdUser = await _userService.CreateUser(createAccountDto);
+                return StatusCode(201, createdUser);
+                //return CreatedAtAction("", new { id = createdUser.Id }, createdUser);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro interno. {ex.Message}");
+            }
+
+        }
+
+
+
+    }
+}
