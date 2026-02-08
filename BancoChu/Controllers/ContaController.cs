@@ -13,11 +13,13 @@ namespace BancoChu.Controllers
     {
         private readonly ITransferenciaService _transferenciaService;
         private readonly IUserService _userService;
+        private readonly IExtratoService _extratoService;
 
-        public ContaController(ITransferenciaService transferenciaService, IUserService userService)
+        public ContaController(ITransferenciaService transferenciaService, IUserService userService, IExtratoService extratoService)
         {
             this._transferenciaService = transferenciaService;
             this._userService = userService;
+            _extratoService = extratoService;
         }
 
 
@@ -60,6 +62,35 @@ namespace BancoChu.Controllers
                 return StatusCode(500, $"Erro interno. {ex.Message}");
             }
 
+        }
+
+        [HttpPost]
+        [Route("transferir")]
+        public async Task<IActionResult> RealizarTransferencia([FromBody] TransferenciaDto transferenciaDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _transferenciaService.ProcessarTransferencia(transferenciaDto.CpfOrigem, transferenciaDto.CpfDestino, transferenciaDto.Valor);
+            if (!result.Success)
+                return BadRequest(new { message = result.Message});
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("extrato")]
+        public async Task<IActionResult> GerarExtrato([FromBody] ExtratoDto extratoDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var extrato = await _extratoService.GerarExtrato(extratoDto.Cpf, extratoDto.DataInicial, extratoDto.DataFinal);
+
+            return Ok(extrato);
         }
 
 

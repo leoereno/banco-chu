@@ -28,7 +28,7 @@ services:
     environment:
       # Use the 'db' service name as the server address
       CONNECTION_STRING: "Server=db;Port=3306;User ID=root;Password=root;Database=bancochu"
-      CONNECTION_REDIS: "Redis:6379"
+      CONNECTION_REDIS: "redis:6379"
       
     ports:
       - "8080:80"

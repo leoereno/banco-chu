@@ -28,7 +28,8 @@ namespace BancoChu.Services
                 Nome = createAccountDto.Nome,
                 Sobrenome = createAccountDto.Sobrenome,
                 Email = createAccountDto.Email,
-                Saldo = 0
+                Cpf = createAccountDto.Cpf,
+                Saldo = createAccountDto.Saldo, 
             };
 
             _context.Contas.Add(conta);
@@ -59,6 +60,29 @@ namespace BancoChu.Services
 
                 var serializedConta = JsonSerializer.Serialize(conta);
                 await _cache.SetStringAsync(cacheKey, serializedConta, options);
+            }
+
+            return conta;
+        }
+        
+        public async Task<Conta?> GetContaByCpf(string cpf)
+        {
+            string cacheKey = $"conta:cpf:{cpf}";
+
+            var cached = await _cache.GetStringAsync(cacheKey);
+            if (!string.IsNullOrEmpty(cached))
+                return JsonSerializer.Deserialize<Conta>(cached);
+
+            var conta = await _context.Contas.FirstOrDefaultAsync(c => c.Cpf == cpf);
+
+            if (conta != null)
+            {
+
+                var serialized = JsonSerializer.Serialize(conta);
+                await _cache.SetStringAsync(cacheKey, serialized, new DistributedCacheEntryOptions
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30)
+                });
             }
 
             return conta;

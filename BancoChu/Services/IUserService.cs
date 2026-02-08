@@ -8,5 +8,6 @@ namespace BancoChu.Services
         public Task<Conta> CreateUser(CreateAccountDto createAccountDto);
         public Task<List<Conta>> GetUsers();
         public Task<Conta?> GetContaById(Guid id);
+        public Task<Conta?> GetContaByCpf(string cpf);
     }
 }

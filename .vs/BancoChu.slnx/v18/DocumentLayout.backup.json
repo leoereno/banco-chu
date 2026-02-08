@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\leo\\source\\repos\\BancoChu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|c:\\users\\leo\\source\\repos\\bancochu\\tests\\transferenciaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|solutionrelative:tests\\transferenciaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|c:\\users\\leo\\source\\repos\\bancochu\\tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|solutionrelative:tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\feriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\feriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\dto\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\dto\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|c:\\users\\leo\\source\\repos\\bancochu\\tests\\extratoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E1C175-38C5-4219-A562-225543C3752B}|Tests\\Tests.csproj|solutionrelative:tests\\extratoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\bancochu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\bancochu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\docker-compose.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\docker-compose.yaml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\transferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,6 +29,54 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\itransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\itransferenciaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\disponibilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\disponibilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\idisponibilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\idisponibilidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\extratoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\extratoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\iextratoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\iextratoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\transferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\models\\feriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\models\\feriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|Itens de Solu\u00E7\u00E3o{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|C:\\Users\\leo\\source\\repos\\BancoChu\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|Itens de Solu\u00E7\u00E3o{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|c:\\users\\leo\\source\\repos\\bancochu\\bancochu\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A5371E8-488F-B58B-D65D-6A3EBFF3ECAC}|BancoChu\\BancoChu.csproj|solutionrelative:bancochu\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,20 +86,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BancoChu\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\UserService.cs",
               "RelativeToolTip": "BancoChu\\Services\\UserService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwAYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwB8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T23:01:09.118Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferenciaService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\TransferenciaService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\TransferenciaService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\TransferenciaService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\TransferenciaService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T21:14:11.903Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtratoServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\ExtratoServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ExtratoServiceTests.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\ExtratoServiceTests.cs",
+              "RelativeToolTip": "Tests\\ExtratoServiceTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowDgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:30:26.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExtratoService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\ExtratoService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\ExtratoService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\ExtratoService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\ExtratoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:12:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IExtratoService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IExtratoService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\IExtratoService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IExtratoService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\IExtratoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T01:12:37.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -91,92 +161,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "BancoChu\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IUserService.cs",
-              "RelativeToolTip": "BancoChu\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABIAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\OperationResult.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Models\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\OperationResult.cs",
+              "RelativeToolTip": "BancoChu\\Models\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T23:01:01.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BancoChu\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "BancoChu\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T20:29:41.618Z",
+              "WhenOpened": "2026-02-08T00:25:03.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
+              "Title": "DisponibilidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\DisponibilidadeService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\DisponibilidadeService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\DisponibilidadeService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\DisponibilidadeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:59:37.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDisponibilidadeService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IDisponibilidadeService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\IDisponibilidadeService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IDisponibilidadeService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\IDisponibilidadeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:59:29.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransferenciaServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\TransferenciaServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\TransferenciaServiceTests.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\TransferenciaServiceTests.cs",
+              "RelativeToolTip": "Tests\\TransferenciaServiceTests.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwF8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:50:45.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\Tests\\UserServiceTests.cs",
+              "RelativeToolTip": "Tests\\UserServiceTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T23:40:54.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ITransferenciaService.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\ITransferenciaService.cs",
               "RelativeDocumentMoniker": "BancoChu\\Services\\ITransferenciaService.cs",
               "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\ITransferenciaService.cs",
               "RelativeToolTip": "BancoChu\\Services\\ITransferenciaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T20:10:16.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Dockerfile",
-              "RelativeDocumentMoniker": "BancoChu\\Dockerfile",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Dockerfile",
-              "RelativeToolTip": "BancoChu\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-06T01:30:03.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "docker-compose.yaml",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\docker-compose.yaml",
-              "RelativeDocumentMoniker": "BancoChu\\docker-compose.yaml",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\docker-compose.yaml",
-              "RelativeToolTip": "BancoChu\\docker-compose.yaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-02-06T01:30:57.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\appsettings.json",
-              "RelativeDocumentMoniker": "BancoChu\\appsettings.json",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\appsettings.json",
-              "RelativeToolTip": "BancoChu\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-06T01:21:36.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateAccountDto.cs",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\DTO\\CreateAccountDto.cs",
-              "RelativeDocumentMoniker": "BancoChu\\Models\\DTO\\CreateAccountDto.cs",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\DTO\\CreateAccountDto.cs",
-              "RelativeToolTip": "BancoChu\\Models\\DTO\\CreateAccountDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T22:58:12.236Z"
+              "WhenOpened": "2026-02-06T20:10:16.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Transferencia.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\Transferencia.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Models\\Transferencia.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\Transferencia.cs",
+              "RelativeToolTip": "BancoChu\\Models\\Transferencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T22:31:31.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-02-07T22:24:05.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "BancoChu\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IUserService.cs",
+              "RelativeToolTip": "BancoChu\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T23:01:01.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IRelatorioService.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\IRelatorioService.cs",
               "RelativeDocumentMoniker": "BancoChu\\Services\\IRelatorioService.cs",
@@ -184,11 +285,12 @@
               "RelativeToolTip": "BancoChu\\Services\\IRelatorioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T22:57:14.861Z"
+              "WhenOpened": "2026-02-05T22:57:14.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Feriado.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\Feriado.cs",
               "RelativeDocumentMoniker": "BancoChu\\Models\\Feriado.cs",
@@ -196,67 +298,47 @@
               "RelativeToolTip": "BancoChu\\Models\\Feriado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:18:19.329Z"
+              "WhenOpened": "2026-02-05T21:18:19.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TransferenciaService.cs",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\TransferenciaService.cs",
-              "RelativeDocumentMoniker": "BancoChu\\Services\\TransferenciaService.cs",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Services\\TransferenciaService.cs",
-              "RelativeToolTip": "BancoChu\\Services\\TransferenciaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:14:11.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "BancoChu\\Models\\Conta.cs",
               "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Models\\Conta.cs",
               "RelativeToolTip": "BancoChu\\Models\\Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:12:03.744Z"
+              "WhenOpened": "2026-02-05T21:12:03.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BancoChu.csproj",
-              "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\BancoChu.csproj",
-              "RelativeDocumentMoniker": "BancoChu\\BancoChu.csproj",
-              "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\BancoChu.csproj",
-              "RelativeToolTip": "BancoChu\\BancoChu.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-05T21:11:42.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "ContaController.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Controllers\\ContaController.cs",
               "RelativeDocumentMoniker": "BancoChu\\Controllers\\ContaController.cs",
               "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Controllers\\ContaController.cs",
               "RelativeToolTip": "BancoChu\\Controllers\\ContaController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwBYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:09:45.878Z"
+              "WhenOpened": "2026-02-05T21:09:45.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Program.cs",
               "RelativeDocumentMoniker": "BancoChu\\Program.cs",
               "ToolTip": "C:\\Users\\leo\\source\\repos\\BancoChu\\BancoChu\\Program.cs",
               "RelativeToolTip": "BancoChu\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T21:03:05.587Z"
+              "WhenOpened": "2026-02-05T21:03:05.587Z",
+              "EditorCaption": ""
             }
           ]
         }

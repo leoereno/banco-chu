@@ -1,7 +1,9 @@
-﻿namespace BancoChu.Services
+﻿using BancoChu.Models;
+
+namespace BancoChu.Services
 {
     public interface ITransferenciaService
     {
-        public Task<bool> VerificaDisponibilidadeTransferencia(string dataAtual);
+        public Task<OperationResult> ProcessarTransferencia(string cpfOrigem, string cpfDestino, decimal valor);
     }
 }

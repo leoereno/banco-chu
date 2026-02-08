@@ -4,14 +4,19 @@ namespace BancoChu.Models.DTO
 {
     public class CreateAccountDto
     {
-        [Required]
+        [Required(ErrorMessage = "Nome é obrigatório")]
         public string Nome { get; set; } = string.Empty;
 
-        [Required]
+        [Required(ErrorMessage = "Sobrenome é obrigatório")]
         public string Sobrenome { get; set; } = string.Empty;
 
-        [Required]
+        [Required(ErrorMessage = "Email é obrigatório")]
         public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Cpfs é obrigatório")]
+        public string Cpf { get; set; } = string.Empty;
+
+        public decimal Saldo { get; set; } = 0;
 
     }
 }

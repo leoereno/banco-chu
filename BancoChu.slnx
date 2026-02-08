@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="BancoChu/BancoChu.csproj" />
+  <Project Path="Tests/Tests.csproj" Id="61e1c175-38c5-4219-a562-225543c3752b" />
 </Solution>

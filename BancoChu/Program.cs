@@ -11,19 +11,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 //Adicionando documentação com swagger
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddHttpClient();
 //Injeção de dependência (IoC)
 builder.Services.AddScoped<ITransferenciaService, TransferenciaService>();
-builder.Services.AddSingleton<IUserService, UserService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IDisponibilidadeService, DisponibilidadeService>();
+builder.Services.AddScoped<IExtratoService, ExtratoService>();
 
 var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
 var redisConnectionString = Environment.GetEnvironmentVariable("CONNECTION_REDIS");
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 builder.Services.AddStackExchangeRedisCache(options =>
 {
-    options.Configuration = builder.Configuration.GetConnectionString(redisConnectionString);
+    options.Configuration = redisConnectionString;
     options.InstanceName = "BancoChu_";
 });
 
