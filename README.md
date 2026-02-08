@@ -13,6 +13,15 @@ Para rodar os testes unitários
 dotnet test
 ```
 
+## Rotas da API
+| Função | Rota | Método |
+| :--- | :--- | :--- |
+| **Criar Conta** | localhost:8080/api/conta | POST |
+| **Fazer Login** | localhost:8080/api/auth/login | POST |
+| **Fazer Transferencia** | localhost:8080/api/transferencia | POST |
+| **Gerar Extrato** | localhost:8080/api/conta/extrato | POST |
+
+
 ## Especificações técnicas do projeto
 | Componente | Ferramenta |
 | :--- | :--- |

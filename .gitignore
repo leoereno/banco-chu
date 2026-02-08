@@ -1,0 +1,16 @@
+# .NET Build Artifacts
+bin/
+obj/
+
+# Docker
+.dockerignore
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Environment secrets
+.env
+appsettings.Development.json
