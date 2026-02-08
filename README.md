@@ -3,12 +3,13 @@
 
 Para executar os contêineres da aplicação (API, MySQL e REDIS): 
 ```bash
-cd BancoChu
 docker-compose up --build
 
 ```
 
-Para rodar os testes unitários
+Os testes são rodados uma vez em um container isolado sempre que o docker-compose é iniciado
+
+Para rodar os testes unitários localmente:
 ```bash
 dotnet test
 ```
@@ -29,5 +30,5 @@ dotnet test
 | **Banco de Dados** | MySQL |
 | **Cache** | Redis |
 | **Containerização** | Docker / Docker Compose |
-| **Autenticação/Autorização** | JWT (JSON Web Tokens) |
+| **Autenticação/Autorização** | JWT |
 | **Testes Unitários** | XUnit |

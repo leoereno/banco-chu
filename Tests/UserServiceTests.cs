@@ -42,5 +42,6 @@ namespace Tests
             var contaInDb = await db.Contas.FirstOrDefaultAsync(c => c.Email == dto.Email);
             Assert.NotNull(contaInDb);
         }
+
     }
 }

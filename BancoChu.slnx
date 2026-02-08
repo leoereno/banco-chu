@@ -1,5 +1,7 @@
 <Solution>
   <Folder Name="/Itens de Solução/">
+    <File Path=".gitignore" />
+    <File Path="BancoChu/docker-compose.yaml" />
     <File Path="README.md" />
   </Folder>
   <Project Path="BancoChu/BancoChu.csproj" />

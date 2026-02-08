@@ -25,7 +25,7 @@ namespace BancoChu.Controllers
         {
             var user = await _userService.GetContaByCpf(loginDto.Cpf);
 
-            if (user == null || BCrypt.Net.BCrypt.Verify(loginDto.Senha, user.SenhaHash))
+            if (user == null || !BCrypt.Net.BCrypt.Verify(loginDto.Senha, user.SenhaHash))
             {
                 return Unauthorized("CPF ou senha inválidos.");
             }

@@ -22,7 +22,7 @@ services:
 
   app:
     build:
-      context: ../
+      context: .
       dockerfile: ./BancoChu/Dockerfile
     restart: always
     environment:
@@ -40,3 +40,9 @@ services:
     depends_on:
         db:
           condition: service_healthy    
+  tests:
+    image: mcr.microsoft.com/dotnet/sdk:6.0
+    volumes:
+      - .:/src
+    working_dir: /src
+    command: dotnet test Tests/Tests.csproj
