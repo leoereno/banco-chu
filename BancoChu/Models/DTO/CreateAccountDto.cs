@@ -10,6 +10,10 @@ namespace BancoChu.Models.DTO
         [Required(ErrorMessage = "Sobrenome é obrigatório")]
         public string Sobrenome { get; set; } = string.Empty;
 
+        [Required(ErrorMessage = "Senha é obrigatória")]
+        [MinLength(8, ErrorMessage = "Senha deve ter pelo menos 8 caracteres.")]
+        public string Senha {  get; set; } = string.Empty;
+
         [Required(ErrorMessage = "Email é obrigatório")]
         public string Email { get; set; } = string.Empty;
 

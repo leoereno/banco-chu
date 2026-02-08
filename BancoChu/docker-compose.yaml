@@ -27,8 +27,13 @@ services:
     restart: always
     environment:
       # Use the 'db' service name as the server address
-      CONNECTION_STRING: "Server=db;Port=3306;User ID=root;Password=root;Database=bancochu"
-      CONNECTION_REDIS: "redis:6379"
+      - CONNECTION_STRING=Server=db;Port=3306;User ID=root;Password=root;Database=bancochu
+      - CONNECTION_REDIS=redis:6379
+      - Jwt__Key=d4S6yD5AsaTUFBKKq9fOlMSVi92TBxPd
+      - Jwt__Issuer=BancoChuApi
+      - Jwt__Audience=BancoChuApp 
+
+      
       
     ports:
       - "8080:80"

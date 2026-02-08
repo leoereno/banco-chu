@@ -29,7 +29,8 @@ namespace Tests
                 Nome = "Lucas",
                 Sobrenome = "Santos",
                 Email = "lucas@mail.com",
-                Cpf = "12345678908"
+                Cpf = "12345678908",
+                Senha = "12345678"
             };
 
             var result = await service.CreateUser(dto);

@@ -64,23 +64,7 @@ namespace BancoChu.Controllers
 
         }
 
-        [HttpPost]
-        [Route("transferir")]
-        public async Task<IActionResult> RealizarTransferencia([FromBody] TransferenciaDto transferenciaDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var result = await _transferenciaService.ProcessarTransferencia(transferenciaDto.CpfOrigem, transferenciaDto.CpfDestino, transferenciaDto.Valor);
-            if (!result.Success)
-                return BadRequest(new { message = result.Message});
-            return Ok();
-        }
-
-        [HttpPost]
-        [Route("extrato")]
+        [HttpPost("extrato")]
         public async Task<IActionResult> GerarExtrato([FromBody] ExtratoDto extratoDto)
         {
             if (!ModelState.IsValid)
@@ -92,6 +76,8 @@ namespace BancoChu.Controllers
 
             return Ok(extrato);
         }
+
+
 
 
 

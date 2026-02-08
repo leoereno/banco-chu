@@ -1,6 +1,7 @@
 ﻿using BancoChu.Data;
 using BancoChu.Models;
 using BancoChu.Models.DTO;
+using BCrypt.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
@@ -29,7 +30,8 @@ namespace BancoChu.Services
                 Sobrenome = createAccountDto.Sobrenome,
                 Email = createAccountDto.Email,
                 Cpf = createAccountDto.Cpf,
-                Saldo = createAccountDto.Saldo, 
+                Saldo = createAccountDto.Saldo,
+                SenhaHash = BCrypt.Net.BCrypt.HashPassword(createAccountDto.Senha)
             };
 
             _context.Contas.Add(conta);
