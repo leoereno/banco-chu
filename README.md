@@ -25,10 +25,10 @@ Caso queria realizar testes E2E, há um arquivo .json na raíz do projeto que co
 ## Rotas da API
 | Função | Rota | Método |
 | :--- | :--- | :--- |
-| **Criar Conta** | localhost:8080/api/conta | POST |
-| **Fazer Login** | localhost:8080/api/auth/login | POST |
-| **Fazer Transferencia** | localhost:8080/api/transferencia | POST |
-| **Gerar Extrato** | localhost:8080/api/conta/extrato | POST |
+| **Criar Conta** | localhost:8080/api/v1/conta | POST |
+| **Fazer Login** | localhost:8080/api/v1/auth/login | POST |
+| **Fazer Transferencia** | localhost:8080/api/v1/transferencia | POST |
+| **Gerar Extrato** | localhost:8080/api/v1/conta/extrato | POST |
 
 
 ## Especificações técnicas do projeto
