@@ -1,0 +1,178 @@
+{
+  "info": {
+    "_postman_id": "d879488b-545f-4bda-816f-90065a3517f7",
+    "name": "Banco Chu API - E2E",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27996348"
+  },
+  "item": [
+    {
+      "name": "Criar Conta",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\" : \"Lucas\",\r\n    \"sobrenome\": \"Oliveira\",\r\n    \"email\": \"lucas@42132.com\",\r\n    \"senha\":\"12345678\",\r\n    \"cpf\":\"22222222222\",\r\n    \"saldo\": 50\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/conta",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "conta"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Criar Conta 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nome\":\"Paulo\",\r\n    \"sobrenome\": \"Marcondes\",\r\n    \"email\": \"paulo@mail.com\",\r\n    \"cpf\": \"11111111111\",\r\n    \"saldo\": 1500,\r\n    \"senha\" :\"87654321\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/conta",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "conta"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cpf\":\"11111111111\",\r\n    \"senha\":\"87654321\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/auth/login",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "auth",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Transferir",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IlBhdWxvIiwiQ3BmIjoiMTExMTExMTExMTEiLCJuYW1laWQiOiIwMTljNDAxYi1iNTFlLTc3NDktYjNlOS1hZmQzYTdmYWZiNTUiLCJuYmYiOjE3NzA2MDIwODksImV4cCI6MTc3MDYwOTI4OSwiaWF0IjoxNzcwNjAyMDg5LCJpc3MiOiJCYW5jb0NodUFwaSIsImF1ZCI6IkJhbmNvQ2h1QXBwIn0.Gy3qNuRUrFAM2MfjdoUgtpkuutHLiIXsVmo0YxZMCUE",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cpfOrigem\": \"22222222222\",\r\n    \"cpfDestino\": \"11111111111\",\r\n    \"valor\": 9\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/transferencia/",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "transferencia",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Extrato",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InBhdWxvIiwiQ3BmIjoiMzMzMzMzMzMzMzMiLCJuYW1laWQiOiIwMTljNDAwMi1jNzdkLTc0MmItOWQ1Mi04Yzg1OWE0MTlhMDMiLCJuYmYiOjE3NzA2MDA0NjgsImV4cCI6MTc3MDYwNzY2OCwiaWF0IjoxNzcwNjAwNDY4LCJpc3MiOiJCYW5jb0NodUFwaSIsImF1ZCI6IkJhbmNvQ2h1QXBwIn0.I_gsApgeu353Q-PeW0XFpcpdwyh_GvXV3EmKJoKrl8s",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cpf\": \"22222222222\",\r\n    \"dataInicial\": \"2026-01-01\",\r\n    \"dataFinal\": \"2026-02-20\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/conta/extrato",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "conta",
+            "extrato"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

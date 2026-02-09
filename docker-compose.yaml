@@ -32,6 +32,7 @@ services:
       - Jwt__Key=d4S6yD5AsaTUFBKKq9fOlMSVi92TBxPd
       - Jwt__Issuer=BancoChuApi
       - Jwt__Audience=BancoChuApp 
+      - ASPNETCORE_ENVIRONMENT=Development
 
       
       

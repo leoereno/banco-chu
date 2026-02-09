@@ -64,11 +64,14 @@ namespace BancoChu.Services
                     Data = DateTime.UtcNow
                 };
 
+                _context.Transferencias.Add(transferencia);
+
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();
 
                 await _cache.RemoveAsync($"conta:{contaOrigem.Id}");
                 await _cache.RemoveAsync($"conta:{contaDestino.Id}");
+
 
                 return OperationResult.Ok();
 

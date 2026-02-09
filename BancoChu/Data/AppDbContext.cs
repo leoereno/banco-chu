@@ -14,6 +14,13 @@ namespace BancoChu.Data
             modelBuilder.Entity<Conta>()
                 .HasIndex(c => c.Cpf)
                 .IsUnique();
+            modelBuilder.Entity<Conta>()
+                .Property(c => c.Saldo)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Transferencia>()
+                .Property(t => t.Valor)
+                .HasPrecision(18, 2);
         }
 
 

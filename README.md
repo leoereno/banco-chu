@@ -14,6 +14,13 @@ Para rodar os testes unitários localmente:
 dotnet test
 ```
 
+Por padrão o Swagger e o modo desenvolvimento estão habilitados. Para desabilitar e utilizar em modo produção, basta altera a variável de ambiente no docker-compose.yaml
+```bash
+ASPNETCORE_ENVIRONMENT=Production
+```
+
+Caso queria realizar testes E2E, há um arquivo .json na raíz do projeto que contém alguns requests no Postman já previamente configurados.
+
 ## Rotas da API
 | Função | Rota | Método |
 | :--- | :--- | :--- |
@@ -32,3 +39,6 @@ dotnet test
 | **Containerização** | Docker / Docker Compose |
 | **Autenticação/Autorização** | JWT |
 | **Testes Unitários** | XUnit |
+| **Documentação** | Swagger |
+| **Fluent Validation** | FluentValidator.AspNetCore |
+| **Testes E2E** | Postman |

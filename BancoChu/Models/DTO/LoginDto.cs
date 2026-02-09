@@ -1,13 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FluentValidation;
+using System.ComponentModel.DataAnnotations;
 
 namespace BancoChu.Models.DTO
 {
     public class LoginDto
     {
-        [Required(ErrorMessage = "CPF é obrigatório")]
         public string Cpf { get; set; } = String.Empty;
 
-        [Required(ErrorMessage = "Senha é obrigatória")]
         public string Senha { get; set; } = String.Empty;
      }
+
+    public class LoginDtoValidator : AbstractValidator<LoginDto>
+    {
+        public LoginDtoValidator()
+        {
+            RuleFor(x => x.Cpf).NotEmpty().Length(11).WithMessage("CPF Inválido");
+            RuleFor(x => x.Senha).NotEmpty().MinimumLength(8).WithMessage("Senha não pode ser nula e deve conter 8 ou mais caracteres");
+        }
+    }
 }

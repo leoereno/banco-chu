@@ -1,4 +1,5 @@
-﻿using BancoChu.Models.DTO;
+﻿using Asp.Versioning;
+using BancoChu.Models.DTO;
 using BancoChu.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -6,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BancoChu.Controllers
 {
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [Authorize]
-    [Route("api/[controller]")]
     [ApiController]
     public class TransferenciaController : ControllerBase
     {

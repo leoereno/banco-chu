@@ -1,4 +1,5 @@
-﻿using BancoChu.Models;
+﻿using Asp.Versioning;
+using BancoChu.Models;
 using BancoChu.Models.DTO;
 using BancoChu.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BancoChu.Controllers
 {
-    [Route("api/conta")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/conta")]
     [ApiController]
     public class ContaController : ControllerBase
     {

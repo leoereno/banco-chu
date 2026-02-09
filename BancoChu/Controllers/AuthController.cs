@@ -1,4 +1,5 @@
-﻿using BancoChu.Models.DTO;
+﻿using Asp.Versioning;
+using BancoChu.Models.DTO;
 using BancoChu.Services;
 using BCrypt.Net;
 using Microsoft.AspNetCore.Http;
@@ -7,7 +8,8 @@ using System.Net.WebSockets;
 
 namespace BancoChu.Controllers
 {
-    [Route("api/[controller]")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
