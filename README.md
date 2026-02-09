@@ -14,13 +14,13 @@ Para rodar os testes unitários localmente:
 dotnet test
 ```
 
-Por padrão o Swagger e o modo desenvolvimento estão habilitados. Para desabilitar e utilizar em modo produção, basta altera a variável de ambiente no docker-compose.yaml
+Por padrão o Swagger e o modo desenvolvimento estão habilitados. Para desabilitar e utilizar em modo produção, basta altera a variável de ambiente no docker-compose.yaml. [Acesse o Swagger aqui](https://localhost:8080/swagger/index.html)
 ```bash
 ASPNETCORE_ENVIRONMENT=Production
 ```
 
 Caso queria realizar testes E2E, há um arquivo .json na raíz do projeto que contém alguns requests no Postman já previamente configurados.
-[Acessar Swagger](https://localhost:8080/swagger/index.html)
+
 
 ## Rotas da API
 | Função | Rota | Método |
