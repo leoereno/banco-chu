@@ -20,7 +20,7 @@ ASPNETCORE_ENVIRONMENT=Production
 ```
 
 Caso queria realizar testes E2E, há um arquivo .json na raíz do projeto que contém alguns requests no Postman já previamente configurados.
-[Acessar Swagger](localhost:8080/swagger/index.html)
+[Acessar Swagger](https://localhost:8080/swagger/index.html)
 
 ## Rotas da API
 | Função | Rota | Método |
