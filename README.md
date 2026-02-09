@@ -28,7 +28,7 @@ Caso queria realizar testes E2E, há um arquivo .json na raíz do projeto que co
 | **Criar Conta** | localhost:8080/api/v1/conta | POST |
 | **Fazer Login** | localhost:8080/api/v1/auth/login | POST |
 | **Fazer Transferencia** | localhost:8080/api/v1/transferencia | POST |
-| **Gerar Extrato** | localhost:8080/api/v1/conta/extrato | POST |
+| **Gerar Extrato** | localhost:8080/api/v1/extrato | POST |
 
 
 ## Especificações técnicas do projeto

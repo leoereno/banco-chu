@@ -66,22 +66,5 @@ namespace BancoChu.Controllers
 
         }
 
-        [HttpPost("extrato")]
-        public async Task<IActionResult> GerarExtrato([FromBody] ExtratoDto extratoDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var extrato = await _extratoService.GerarExtrato(extratoDto.Cpf, extratoDto.DataInicial, extratoDto.DataFinal);
-
-            return Ok(extrato);
-        }
-
-
-
-
-
     }
 }

@@ -22,7 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(s =>
 {
     s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title= "Banco Chu API", Version = "v1"});
-
+    
     s.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         Name = "Authorization",

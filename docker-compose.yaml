@@ -33,6 +33,7 @@ services:
       - Jwt__Issuer=BancoChuApi
       - Jwt__Audience=BancoChuApp 
       - ASPNETCORE_ENVIRONMENT=Development
+      - TZ=America/Sao_Paulo
 
       
       
